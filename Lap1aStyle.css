@@ -1,0 +1,95 @@
+/*Lap1a*/
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #d0cbcb;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button-container .circle {
+  width: 40px;
+  height: 40px;
+}
+
+.button-container .dasheda {
+  width: 40px;
+  height: 40px;
+  border-style: dashed;
+}
+
+.button-container .dashedb {
+  border-style: dashed;
+}
+
+.button-container .icon {
+  margin-right: 2px;
+  margin-left: auto;
+}
+
+.button-container .icon .search {
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+}
+
+.primary {
+  width: 40px;
+  height: 40px;
+  background-color: #2d11e3;
+  color: rgb(253, 254, 255);
+}
+
+.primarya {
+  border-radius: 10px;
+  background-color: #2d11e3;
+  color: rgb(253, 254, 255);
+}
+
+.primaryb {
+  border-radius: 10px;
+}
+.primaryb:hover {
+  border: 1px solid blue;
+}
+
+.circle:hover {
+  border: 1px solid blue;
+}
+
+.dasheda {
+  border-color: #aab6c3;
+  color: #000000;
+}
+
+.dashedb {
+  border-color: #aab6c3;
+  color: #000000;
+}
+
+button:hover {
+  color: #132bdf;
+  border: #132bdf;
+  filter: brightness(2.5);
+}

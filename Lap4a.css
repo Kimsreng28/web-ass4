@@ -1,0 +1,91 @@
+body {
+  background-color: green;
+}
+.contain {
+  background-color: chartreuse;
+  padding: 0.5%;
+}
+.contain p {
+  margin-left: 4px;
+}
+
+.contain1 {
+  position: relative;
+  top: 10px;
+  background-color: chartreuse;
+  padding: 0.5%;
+}
+
+.containC {
+  flex: 1 1 100px;
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10px;
+  background-color: green;
+}
+.contain2 {
+  flex-grow: 30;
+  display: grid;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10px;
+  background-color: chartreuse;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.artical {
+  flex-grow: 5;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 1px;
+}
+.artical p {
+  margin-left: 5px;
+}
+
+.main {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+.main p {
+  position: relative;
+  top: 40px;
+  margin-left: 5px;
+}
+
+.contain3 {
+  position: relative;
+  top: 30px;
+  background-color: chartreuse;
+  padding: 7px;
+  padding-bottom: 25px;
+}
+
+.contain4 {
+  flex-wrap: wrap;
+  flex-grow: 10;
+  position: relative;
+  background-color: chartreuse;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.contain4 p {
+  position: relative;
+  top: 130px;
+}
+
+.contain5 {
+  position: relative;
+  top: 40px;
+  background-color: chartreuse;
+  padding: 7px;
+  padding-bottom: 15px;
+}

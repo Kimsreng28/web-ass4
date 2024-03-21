@@ -1,0 +1,122 @@
+body {
+  background-color: green;
+}
+.contain {
+  background-color: chartreuse;
+  padding: 0.5%;
+}
+.contain p {
+  margin-left: 4px;
+}
+
+.contain1 {
+  position: relative;
+  top: 10px;
+  background-color: chartreuse;
+  padding: 0.5%;
+}
+
+.containC {
+  flex: 1 1 100px;
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10px;
+  background-color: green;
+}
+.contain2 {
+  flex-grow: 30;
+  display: grid;
+  flex-wrap: wrap;
+  position: relative;
+  width: 558px;
+  top: 10px;
+  background-color: chartreuse;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.artical {
+  flex-grow: 5;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 1px;
+}
+.artical p {
+  margin-left: 5px;
+}
+
+.main {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+.main p {
+  position: relative;
+  top: 40px;
+  margin-left: 5px;
+}
+
+.contain3 {
+  position: relative;
+  bottom: 50px;
+  background-color: chartreuse;
+  padding: 7px;
+  flex-grow: 30;
+  display: grid;
+  flex-wrap: wrap;
+  width: 567px;
+  padding-bottom: 37px;
+}
+
+.contain4 {
+  flex-wrap: wrap;
+  flex-grow: 10;
+  position: relative;
+  background-color: chartreuse;
+  top: 196px;
+  left: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  height: 230px;
+}
+
+.contain4 p {
+  position: relative;
+  top: 100px;
+}
+
+.contain4a {
+  flex-wrap: wrap;
+  flex-grow: 10;
+  position: relative;
+  background-color: chartreuse;
+  bottom: 321px;
+  left: 590px;
+  padding: 10px;
+  padding-bottom: 10px;
+  width: 20px;
+  height: 60px;
+}
+.contain4b {
+  flex-wrap: wrap;
+  flex-grow: 10;
+  position: relative;
+  background-color: chartreuse;
+  bottom: 230px;
+  left: 90px;
+  padding: 10px;
+  width: 20px;
+  padding-bottom: 10px;
+}
+
+.contain5 {
+  position: relative;
+  top: -40px;
+  background-color: chartreuse;
+  padding: 7px;
+  padding-bottom: 15px;
+}

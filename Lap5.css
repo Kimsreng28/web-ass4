@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "popins", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-family: monospace;
+  position: relative;
+  top: 8px;
+  left: 70px;
+  text-align: left;
+}
+
+.header img {
+  color: #000000;
+  width: 50px;
+  height: 70px;
+  position: relative;
+  bottom: 45px;
+  left: 20px;
+}
+
+.welcome p {
+  position: relative;
+  top: 90px;
+  left: 140px;
+}
+
+.pp {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.p {
+  font-size: 12px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.button button {
+  position: relative;
+  top: 100px;
+  left: 140px;
+  text-align: left;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: #ccc;
+  background-image: linear-gradient(to right, rgb(18, 140, 197), yellow);
+}
+
+.button button:hover {
+  background-color: rgb(72, 194, 111);
+}
+
+.button p {
+  font-family: cursive;
+  color: #000;
+  text-align: center;
+}
+
+.button i {
+  color: #000000;
+  position: relative;
+  bottom: 15px;
+  left: 50px;
+  text-align: center;
+}
+
+.or {
+  position: relative;
+  top: 120px;
+  right: 70px;
+}
+
+.hr-lines {
+  font-size: 14px;
+  font-family: cursive;
+  position: relative;
+  left: 350px;
+}
+
+.hr-lines::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 135px;
+  position: absolute;
+  top: 52%;
+  left: -140px;
+  background: #000;
+}
+
+.hr-lines::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 135px;
+  position: absolute;
+  top: 52%;
+  left: 20px;
+  background: #000;
+}
+
+.email {
+  position: relative;
+  top: 140px;
+  left: 100px;
+}
+
+.email label {
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.email input {
+  position: relative;
+  top: 10px;
+  left: 37px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.password {
+  position: relative;
+  top: 180px;
+  left: 100px;
+}
+
+.password label {
+  font-weight: bold;
+  position: relative;
+  left: 37px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.password input {
+  position: relative;
+  top: 10px;
+  left: 37px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.icon i {
+  position: relative;
+  top: 162px;
+  left: 400px;
+}
+
+.checkbox {
+  position: relative;
+  top: 200px;
+  left: 138px;
+}
+
+.checkbox label {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+.forget {
+  position: relative;
+  top: 182px;
+  left: 323px;
+}
+
+.forget a {
+  font-weight: bold;
+  color: #4b0082;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+.Sign-in button {
+  position: relative;
+  top: 210px;
+  left: 130px;
+  text-align: left;
+  width: 310px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #1b08eb;
+  background-color: #3614cc;
+  transition: 0.5s;
+  outline-style: solid;
+  outline-color: #352ba4;
+  background-image: linear-gradient(rgb(16, 88, 234), rgb(23, 155, 215));
+}
+
+.Sign-in button:hover {
+  background-color: rgb(49, 200, 200);
+}
+
+.Sign-in p {
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.notyet {
+  position: relative;
+  top: 230px;
+  left: 130px;
+}
+
+.notyet p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.notyet a {
+  font-weight: bold;
+  color: #4b0082;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-img img {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  left: 550px;
+  bottom: 460px;
+}
+
+.form-img img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.space {
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cursive;
+}
